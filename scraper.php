@@ -6,7 +6,7 @@ date_default_timezone_set('Australia/Sydney');
 
 $url_base = "http://eservice.ryde.nsw.gov.au/DATracking/Modules/ApplicationMaster/";
 $da_page = $url_base . "default.aspx?page=found&1=thisweek&4a=DA&6=F";
-$da_page = $url_base . "default.aspx?page=found&1=thismonth&4a=DA&6=F";        # Use this URL to get 'This Month' submitted DA, also to test pagination
+#$da_page = $url_base . "default.aspx?page=found&1=thismonth&4a=DA&6=F";        # Use this URL to get 'This Month' submitted DA, also to test pagination
 $comment_base = "mailto:cityofryde@ryde.nsw.gov.au?subject=Development Application Enquiry: ";
 
 $mainUrl = scraperWiki::scrape("$da_page");
