@@ -1,5 +1,5 @@
-city of ryde scraper
+City Of Ryde scraper
 -------------------------
 
-It scrape the main page and got most of the date, but it need to scrape a second page to obtain the address.
+It scrape the main page and got most of the data, but it need to scrape a second page to obtain the address.
 
