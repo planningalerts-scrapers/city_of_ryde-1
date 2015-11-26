@@ -1,4 +1,6 @@
 <?php
+### City of Ryde scraper
+
 require 'scraperwiki.php'; 
 require 'simple_html_dom.php';
 
