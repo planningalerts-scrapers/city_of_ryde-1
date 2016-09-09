@@ -1,7 +1,7 @@
 <?php
 ### City of Ryde scraper
 
-require 'scraperwiki.php'; 
+require 'scraperwiki.php';
 require 'simple_html_dom.php';
 
 date_default_timezone_set('Australia/Sydney');
@@ -59,18 +59,20 @@ for ($i = 1; $i <= $NumPages; $i++) {
         $date_received = explode(' ', (trim($record->children(2)->plaintext)), 2);
         $date_received = explode('/', $date_received[0]);
         $date_received = "$date_received[2]-$date_received[1]-$date_received[0]";
-        
-        # Get the address from the actual DA detail page 
-        $addressUrl = scraperWiki::scrape($url_base . trim($record->find('a',0)->href));
-        $dadom = new simple_html_dom();
-        $dadom->load($addressUrl);
-        $address = $dadom->find("div[id=lblProp]",0)->plaintext;
+
+        # Get the address
+        $address = $record->find('td', 3)->plaintext;
+        $tokens = explode('</br>', $address);
+        $address = trim($tokens[0]) . ", NSW";
+
+        # Get the description from the left over token
+        $description = trim($tokens[2]);
 
         # Put all information in an array
         $application = array (
             'council_reference' => trim($record->children(1)->plaintext),
-            'address' => trim($address) . ", NSW  AUSTRALIA",
-            'description' => trim($record->children(3)->plaintext),
+            'address' => $address,
+            'description' => $description,
             'info_url' => $url_base . trim($record->find('a',0)->href),
             'comment_url' => $comment_base . trim($record->children(1)->plaintext) . '&Body=',
             'date_scraped' => date('Y-m-d'),
@@ -80,7 +82,7 @@ for ($i = 1; $i <= $NumPages; $i++) {
         # Check if record exist, if not, INSERT, else do nothing
         $existingRecords = scraperwiki::select("* from data where `council_reference`='" . $application['council_reference'] . "'");
         if (count($existingRecords) == 0) {
-            print ("Saving record " . $application['council_reference'] . "\n");
+            print ("Saving record " . $application['council_reference'] . ' - ' . $address . "\n");
             # print_r ($application);
             scraperwiki::save(array('council_reference'), $application);
         } else {
