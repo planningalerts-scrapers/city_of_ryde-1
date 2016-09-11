@@ -1,7 +1,15 @@
-City Of Ryde scraper
+City Of Ryde council scraper
 -------------------------
 
-* Fairly easy to scrape
+This site is a typical .NET site involves the followings.
+* Pagnation - Yes
+* Javascript - doPOSTBACK
+* Clearly defined data within a row - three cheers to this council
 
-This version also support pagination
+Setup MORPH_PERIOD for data recovery, available options are
+* thisweek (default)
+* thismonth
+* lastmonth
+
+Enjoy
 

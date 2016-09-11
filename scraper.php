@@ -6,10 +6,23 @@ require 'simple_html_dom.php';
 
 date_default_timezone_set('Australia/Sydney');
 
+# Default to 'thisweek', use MORPH_PERIOD to change to 'thismonth' or 'lastmonth' for data recovery
+switch(getenv('MORPH_PERIOD')) {
+    case 'thismonth' :
+        $period = 'thismonth';
+        break;
+    case 'lastmonth' :
+        $period = 'lastmonth';
+        break;
+    case 'thisweek' :
+    default         :
+        $period = 'thisweek';
+        break;
+}
+print "Getting data for '" .$period. "', changable via MORPH_PERIOD environment\n";
+
 $url_base = "http://eservice.ryde.nsw.gov.au/DATracking/Modules/ApplicationMaster/";
-#$da_page = $url_base . "default.aspx?page=found&1=thisweek&4a=DA&6=F";
-$da_page = $url_base . "default.aspx?page=found&1=thismonth&4a=DA&6=F";        # Use this URL to get 'This Month' submitted DA, also to test pagination
-#$da_page = $url_base . "default.aspx?page=found&1=lastmonth&4a=DA&6=F";        # Use this URL to get 'Last Month' submitted DA, also to test pagination
+$da_page = $url_base . "default.aspx?page=found&1=" .$period. "&4a=DA&6=F";
 $comment_base = "mailto:cityofryde@ryde.nsw.gov.au?subject=Development Application Enquiry: ";
 
 $mainUrl = scraperWiki::scrape("$da_page");
