@@ -1,15 +1,28 @@
 <?php
 ### City of Ryde scraper
 
-require 'scraperwiki.php'; 
+require 'scraperwiki.php';
 require 'simple_html_dom.php';
 
 date_default_timezone_set('Australia/Sydney');
 
+# Default to 'thisweek', use MORPH_PERIOD to change to 'thismonth' or 'lastmonth' for data recovery
+switch(getenv('MORPH_PERIOD')) {
+    case 'thismonth' :
+        $period = 'thismonth';
+        break;
+    case 'lastmonth' :
+        $period = 'lastmonth';
+        break;
+    case 'thisweek' :
+    default         :
+        $period = 'thisweek';
+        break;
+}
+print "Getting data for '" .$period. "', changable via MORPH_PERIOD environment\n";
+
 $url_base = "http://eservice.ryde.nsw.gov.au/DATracking/Modules/ApplicationMaster/";
-#$da_page = $url_base . "default.aspx?page=found&1=thisweek&4a=DA&6=F";
-$da_page = $url_base . "default.aspx?page=found&1=thismonth&4a=DA&6=F";        # Use this URL to get 'This Month' submitted DA, also to test pagination
-#$da_page = $url_base . "default.aspx?page=found&1=lastmonth&4a=DA&6=F";        # Use this URL to get 'Last Month' submitted DA, also to test pagination
+$da_page = $url_base . "default.aspx?page=found&1=" .$period. "&4a=DA&6=F";
 $comment_base = "mailto:cityofryde@ryde.nsw.gov.au?subject=Development Application Enquiry: ";
 
 $mainUrl = scraperWiki::scrape("$da_page");
@@ -59,18 +72,20 @@ for ($i = 1; $i <= $NumPages; $i++) {
         $date_received = explode(' ', (trim($record->children(2)->plaintext)), 2);
         $date_received = explode('/', $date_received[0]);
         $date_received = "$date_received[2]-$date_received[1]-$date_received[0]";
-        
-        # Get the address from the actual DA detail page 
-        $addressUrl = scraperWiki::scrape($url_base . trim($record->find('a',0)->href));
-        $dadom = new simple_html_dom();
-        $dadom->load($addressUrl);
-        $address = $dadom->find("div[id=lblProp]",0)->plaintext;
+
+        # Get the address
+        $address = $record->find('td', 3)->plaintext;
+        $tokens = explode('</br>', $address);
+        $address = trim($tokens[0]) . ", NSW";
+
+        # Get the description from the left over token
+        $description = trim($tokens[2]);
 
         # Put all information in an array
         $application = array (
             'council_reference' => trim($record->children(1)->plaintext),
-            'address' => trim($address) . ", NSW  AUSTRALIA",
-            'description' => trim($record->children(3)->plaintext),
+            'address' => $address,
+            'description' => $description,
             'info_url' => $url_base . trim($record->find('a',0)->href),
             'comment_url' => $comment_base . trim($record->children(1)->plaintext) . '&Body=',
             'date_scraped' => date('Y-m-d'),
@@ -80,7 +95,7 @@ for ($i = 1; $i <= $NumPages; $i++) {
         # Check if record exist, if not, INSERT, else do nothing
         $existingRecords = scraperwiki::select("* from data where `council_reference`='" . $application['council_reference'] . "'");
         if (count($existingRecords) == 0) {
-            print ("Saving record " . $application['council_reference'] . "\n");
+            print ("Saving record " . $application['council_reference'] . ' - ' . $address . "\n");
             # print_r ($application);
             scraperwiki::save(array('council_reference'), $application);
         } else {
