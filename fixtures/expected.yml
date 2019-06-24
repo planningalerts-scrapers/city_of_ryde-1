@@ -1,0 +1,25 @@
+---
+- council_reference: LDA2019/0204
+  address: 39 Hollis Ave DENISTONE EAST NSW 2112
+  description: Proposed demolition of existing dwelling and construction of dual occupancy
+    (attached)
+  info_url: https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=COR.P1.WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId=LDA2019%2f0204
+  comment_url: mailto:cityofryde@ryde.nsw.gov.au
+  date_scraped: '2019-05-15'
+  date_received: '2019-06-24'
+- council_reference: MOD2019/0104
+  address: 8 Delmar Pde GLADESVILLE NSW 2111
+  description: 'Modification to: Alteration & Addition to the existing Dwelling- CDP2019/0114'
+  info_url: https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=COR.P1.WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId=MOD2019%2f0104
+  comment_url: mailto:cityofryde@ryde.nsw.gov.au
+  date_scraped: '2019-05-15'
+  date_received: '2019-06-24'
+- council_reference: MOD2019/0105
+  address: 47 Lovell Rd DENISTONE EAST NSW 2112
+  description: 'Section 4.55 (1A) application to modify consent involving: 1. Installation
+    of air conditioning to Buiding - J 2. Relocation of pedestrian gate at Block -
+    R, 3. Consolidation of solar panel to northern roof of Block - J'
+  info_url: https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?r=COR.P1.WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId=MOD2019%2f0105
+  comment_url: mailto:cityofryde@ryde.nsw.gov.au
+  date_scraped: '2019-05-15'
+  date_received: '2019-06-24'

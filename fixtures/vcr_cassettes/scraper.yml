@@ -1,0 +1,375 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=TW&f=$P1.ETR.SEARCH.STW&r=COR.P1.WEBGUEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - eservices.ryde.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - ASP.NET_SessionId=hxgj0b55t53c2h45fjtv5b55; path=/; HttpOnly
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 24 Jun 2019 23:25:40 GMT
+      Content-Length:
+      - '14940'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\tCity
+        of Ryde eServices - Submitted This Week\r\n</title><link href=\"../../App_Themes/CoR/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n\r\n<script type=\"text/javascript\"
+        src=\"../../Scripts/jquery-1.8.3.min.js\"></script> \r\n\r\n    <form name=\"aspnetForm\"
+        method=\"post\" action=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STW\"
+        id=\"aspnetForm\">\r\n<div>\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwUKMTE5MDgzMDk0Nw9kFgJmD2QWAgIBD2QWBAIED2QWBAIBD2QWAmYPZBYEAgEPZBYCZg9kFgJmDw8WEB4EVGV4dAUJRWRpdCBNb2RlHgtDb21tYW5kTmFtZQUEVGFzax4PQ29tbWFuZEFyZ3VtZW50BRpQMUVQUkN1c3RvbWlzYXRpb25FZGl0TW9kZR4JQWNjZXNzS2V5ZR4QQ2F1c2VzVmFsaWRhdGlvbmgeCFRhYkluZGV4AQAAHgdUb29sVGlwZR4PVmFsaWRhdGlvbkdyb3VwZWRkAgIPZBYCZg9kFgJmDw8WEB8ABQ1SZWZyZXNoIENhY2hlHwEFBFRhc2sfAgUeUDFFUFJDdXN0b21pc2F0aW9uUmVmcmVzaENhY2hlHwNlHwRoHwUBAAAfBmUfB2VkZAIDDw8WAh4HVmlzaWJsZWhkFgICAg8PZA8PFCsAARYGHgROYW1lBQpsc0Z1bmN0aW9uHgxEZWZhdWx0VmFsdWUFEVAxLkVUUi5TRUFSQ0guU1RXHg5QYXJhbWV0ZXJWYWx1ZWQUKwEBAgNkZAIHD2QWBgIBDw8WAh8AZWRkAgMPZBYEAgIPDxYCHwAFDFNlYXJjaCBEYXRlc2RkAgMPDxYCHwAFGDIzLzA2LzIwMTkgdG8gMjkvMDYvMjAxOWRkAgUPDxYEHghHcmlkVHlwZQUMRVRSQUNLU0VBUkNIHhBHcmlkQ3JpdGVyaWFMaXN0Mu0EAAEAAAD/////AQAAAAAAAAAMAgAAAFBUMS5QMS5XZWIuT2JqZWN0QWRhcHRlcnMsIFZlcnNpb249MTAuNC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAQBAAAAnAFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1QxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWEsIFQxLlAxLldlYi5PYmplY3RBZGFwdGVycywgVmVyc2lvbj0xMC40LjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAACdUMS5QMS5XZWIuT2JqZWN0QWRhcHRlcnMuR3JpZENyaXRlcmlhW10CAAAACAgJAwAAAAEAAAABAAAABwMAAAAAAQAAAAQAAAAEJVQxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWECAAAACQQAAAANAwUEAAAAJVQxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWEFAAAAB21zVmFsdWUIbXNWYWx1ZTIObXNPcGVyYXRvckNvZGUKbXNDb2x1bW5JZA5tc1Byb3BlcnR5TmFtZQEBAQEBAgAAAAYFAAAAFjIzLzA2LzIwMTkgMTI6MDA6MDAgQU0GBgAAABYyOS8wNi8yMDE5IDExOjU5OjU5IFBNBgcAAAACREIGCAAAAA1Mb2RnZW1lbnREYXRlCQgAAAALZBYCZg9kFgQCAQ9kFgICAQ8PFgIfAAUJR3JpZCBUeXBlZGQCAw8PFgIfCGhkFgICAQ8PFgIfAAUcTm8gaW5mb3JtYXRpb24gaXMgYXZhaWxhYmxlLmRkGAMFQ2N0bDAwJENvbnRlbnQkY3VzUmVzdWx0c0dyaWQkcmVwV2ViR3JpZCRjdGwwMCRncmRXZWJHcmlkVGFidWxhclZpZXcPPCsACgEIAgFkBUBjdGwwMCRDb250ZW50JGN1c1Jlc3VsdHNHcmlkJHJlcFdlYkdyaWQkY3RsMDAkZHR2V2ViR3JpZExpc3RWaWV3DxQrAAdkZGRkZBYAAgNkBRxjdGwwMCRDb250ZW50JGxibFNlYXJjaERhdGVzD2hkAOWGykd2uh5FUL+wQ5eOZT3gowc=\"
+        />\r\n</div>\r\n\r\n<div>\r\n\r\n\t<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"794B1E1F\" />\r\n\t<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEWDQLy2sG7BwK359HKDwL38+S0BQLurtn5CALD0Z//CAKDjpzeCAKCqYWLDgKDhpbOBgL/iqOnDwKei6OnDwK1jaOnDwK/g8WMCQKjmJfRCt7QFAwo98/d5R44xfF+4btGBDK/\"
+        />\r\n</div>\r\n        <div id=\"loading\">               \r\n        </div>\r\n
+        \       <div id=\"cssBounds\">\r\n\r\n            <div id=\"cssBanner\" >\r\n
+        \                   <!-- Login -->\r\n                    <div class=\"speciallink\">\r\n
+        \                       \r\n                            <span class=\"Login\">\r\n
+        \                               <a id=\"ctl00_ctlLogin_cmdLogin\" accesskey=\"L\"
+        title=\"Access Key: L\" href=\"javascript:__doPostBack('ctl00$ctlLogin$cmdLogin','')\">Login</a>
+        \                               \r\n                             </span>\r\n
+        \                           \r\n                     </div>\r\n                    <!--
+        End Login -->            \r\n                <div id=\"cssBannerLogo\">\r\n
+        \                   <a href=\"https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/GuestHome.aspx?r=COR.P1.WEBGUEST&f=%24P1.EPR.GUESTHME.VIW\"
+        id=\"ctl00_cmdHomeNav\">\r\n                        <img src=\"../../App_Themes/Default/Images/Empty.gif\"
+        id=\"ctl00_imageHomeNav\" border=\"0\" class=\"homeNav\" />\r\n                    </a>\r\n
+        \               </div>\r\n            </div>\r\n            <div class=\"clear\"></div>\r\n
+        \           <div id=\"cssContentArea\">\r\n                <div id=\"cssTaskpane\"
+        \ class = \"cssNoPrint\">\r\n                    \r\n                    <div>\r\n
+        \                       \r\n                                <div class=\"menuPanel\">\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl01_lblMenuGroupHeader\">Online
+        Payments</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ePay/RatesPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.RATES.ENQ\">Rates
+        Payment</a></li><li><a href=\"../ePay/DebtorPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.DEBTORS.ENQ\">Debtor
+        Payment</a></li><li><a href=\"../ePay/ApplicationPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.OTHPY.ENQ\">Other
+        Payments</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               <div class=\"menuHeader\">\r\n                                    <span
+        id=\"ctl00_Taskpane_rprMenuList_ctl02_lblMenuGroupHeader\">Online Certificates</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/SubmitApplication.aspx?r=COR.P1.WEBGUEST&amp;f=P1.ESB.SUBMTAPP.VIW\">Apply
+        for a Certificate</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl03_lblMenuGroupHeader\">Shopping
+        Cart</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ShoppingCart/ShoppingCart.aspx?r=COR.P1.WEBGUEST&amp;f=COR.PAY.CART.VIW\">Shopping
+        Cart Retrieval</a></li>\r\n</ul>\r\n                                <br />\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl04_lblMenuGroupHeader\">DA
+        Tracking</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"eTrackApplicationSearch.aspx?r=COR.P1.WEBGUEST&amp;f=COR.ETR.SEARCH.ENQ\">Application
+        Search</a></li><li><a href=\"../PublicNotices/AllPublicNotices.aspx?r=COR.P1.WEBGUEST&amp;f=COR.ESB.PUBNOTAL.ENQ\">All
+        Applications on Exhibition</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.STW\">Submitted
+        This Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.SLW\">Submitted
+        Last Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.STM\">Submitted
+        This Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.SLM\">Submitted
+        Last Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DTW\">Determined
+        This Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DLW\">Determined
+        Last Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DTM\">Determined
+        This Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DLM\">Determined
+        Last Month</a></li><li><a href=\"https://www.ryde.nsw.gov.au/Information-pages/DA-Tracking-Terms-and-Conditions\">DA
+        Tracking Terms and Conditions</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                </div>\r\n
+        \                           \r\n                        \r\n                    </div>\r\n
+        \                           \r\n                </div>\r\n                \r\n
+        \               <div id=\"cssTaskpaneRelatedLinks\"  class= \"cssNoPrint\">\r\n
+        \                   \r\n                        \r\n                        \r\n
+        \                   \r\n                    \r\n                    <div id=\"cssHelpAndAdmin\">\r\n
+        \                       \r\n    \r\n    \r\n\r\n                    </div>\r\n
+        \               </div>\r\n                                \r\n                <div
+        id=\"cssContent\">\r\n                <div class=\"cssContentWorkspace\">\r\n
+        \                   <a id=\"cssContentTop\"></a>\r\n                    \r\n
+        \                       <h1 id=\"ctl00_Header_h1PageTitle\">Submitted This
+        Week</h1>\r\n                    \r\n                    \r\n                    \r\n
+        \                             \r\n                    \r\n    \r\n    <span
+        id=\"ctl00_Content_cusETrackApplicationSearchResults\" style=\"display:inline-block;width:100%;\"></span>\r\n
+        \   <br />\r\n    \r\n    <span id=\"ctl00_Content_lblSearchDates\" class=\"block\"><span
+        id=\"ctl00_Content_lblFieldNameP1ETRSearchDates\" class=\"fieldLabel\">Search
+        Dates</span><span id=\"ctl00_Content_lblFieldValueP1ETRSearchDates\" class=\"fieldLabel\">23/06/2019
+        to 29/06/2019</span></span>\r\n    \r\n    <div id=\"ctl00_Content_cusResultsGrid_pnlCustomisationGrid\">\r\n\t\r\n
+        \   \r\n    \r\n    \r\n            <div id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_pnlSectionHeading\">\r\n\t\t\r\n
+        \               <span id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_lblSectionHeading\"
+        class=\"sectionHeading\">Application Search Results</span>\r\n                                <br
+        />\r\n                <img id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_imgSectionSeparator\"
+        class=\"sectionSeparator\" src=\"../../App_Themes/CoR/Images/Empty.gif\" alt=\"\"
+        style=\"border-width:0px;height:0px;width:50%;\" />\r\n            \r\n\t</div>\r\n
+        \r\n            \r\n\r\n            <div>\r\n\t\t<table class=\"grid\" cellspacing=\"0\"
+        cellpadding=\"3\" border=\"0\" id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_grdWebGridTabularView\"
+        style=\"width:100%;border-collapse:collapse;\">\r\n\t\t\t<tr class=\"headerRow\">\r\n\t\t\t\t<th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$RamId')\">Application
+        Link</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$FormattedAddress')\">Address</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$LodgementDate')\">Lodgement
+        Date</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$Description')\">Description</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryGroupDescription')\">Group
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$DeterminedDate')\">Determined
+        Date</a></th>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl02$ctl01','')\">LDA2019/0204</a></td><td>39
+        Hollis Ave DENISTONE EAST NSW 2112</td><td>24/06/2019</td><td>Proposed demolition
+        of existing dwelling and construction of dual occupancy (attached)</td><td>Development
+        Application</td><td>&nbsp;</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl03$ctl01','')\">MOD2019/0104</a></td><td>8
+        Delmar Pde GLADESVILLE NSW 2111</td><td>24/06/2019</td><td>Modification to:
+        Alteration &amp; Addition to the existing Dwelling- CDP2019/0114</td><td>Modifications</td><td>&nbsp;</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl04$ctl01','')\">MOD2019/0105</a></td><td>47
+        Lovell Rd DENISTONE EAST NSW 2112</td><td>24/06/2019</td><td>Section 4.55
+        (1A) application to modify consent involving: 1. Installation of air conditioning
+        to Buiding - J 2. Relocation of pedestrian gate at Block - R, 3. Consolidation
+        of solar panel to northern roof of Block - J</td><td>Modifications</td><td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \           \r\n            <br />\r\n            \r\n            \r\n            \r\n
+        \       \r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    \r\n    <div class=\"actionButtonsLeft\">\r\n
+        \       <input type=\"submit\" name=\"ctl00$Content$btnPrevious\" value=\"Previous\"
+        id=\"ctl00_Content_btnPrevious\" accesskey=\"P\" title=\"Access Key: P\" class=\"LeftArrowButton\"
+        />\r\n    </div>\r\n\r\n\r\n                    <div class=\"clear\"></div>\r\n
+        \                   <br />\r\n                    <br />\r\n                    <br
+        />\r\n                </div>\r\n                </div>\r\n            </div>\r\n
+        \           <p></p>\r\n            <p class=\"invisible\"></p>\r\n            <div
+        id=\"cssBottomBar\" class=\"cssNoPrint\">\r\n                <div id=\"cssBottomBarLegal\">
+        \                \r\n                    <a id=\"ctl00_hplCustomFooterLink1\"
+        accesskey=\"V\" title=\"Access Key: V\" href=\"http://www.ryde.nsw.gov.au/Information-pages/Privacy-Statement\"
+        target=\"_self\">Privacy</a>\r\n                    <img id=\"ctl00_imgFooterSeparator1\"
+        class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink2\" accesskey=\"T\" title=\"Access Key: T\"
+        href=\"http://www.ryde.nsw.gov.au/Information-pages/Terms-and-Conditions\"
+        target=\"_self\">Terms and Conditions</a>\r\n                    <img id=\"ctl00_imgFooterSeparator2\"
+        class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink3\" accesskey=\"U\" title=\"Access Key: U\"
+        href=\"http://www.ryde.nsw.gov.au/Information-pages/Contact-Us\" target=\"_self\">Contact
+        Us</a>                       \r\n                    <span id=\"ctl00_MobileLink\">\r\n
+        \                       <img id=\"ctl00_Image1\" class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                        <a
+        id=\"ctl00_hplMobileView\" href=\"javascript:__doPostBack('ctl00$hplMobileView','')\">Mobile
+        View</a>                       \r\n                    </span>\r\n                </div>\r\n
+        \               <div id=\"cssBottomBarCopyright\">&copy; Technology One Limited
+        2019</div>\r\n            </div>\r\n            \r\n        </div>\r\n    \r\n\r\n<script
+        type=\"text/javascript\">\r\n//<![CDATA[\r\n$(document).ready(function ()
+        {if ($('#ctl00_valErrors').is(':visible') == true) {$('#__SCROLLPOSITIONX').val('0');$('#__SCROLLPOSITIONY').val('0');}});//]]>\r\n</script>\r\n</form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/eTrack/eTrackApplicationSearchResults.aspx?Field=S&Period=TW&f=$P1.ETR.SEARCH.STW&r=COR.P1.WEBGUEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=hxgj0b55t53c2h45fjtv5b55
+      Host:
+      - eservices.ryde.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 24 Jun 2019 23:25:41 GMT
+      Content-Length:
+      - '14940'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head><title>\r\n\tCity
+        of Ryde eServices - Submitted This Week\r\n</title><link href=\"../../App_Themes/CoR/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n\r\n<script type=\"text/javascript\"
+        src=\"../../Scripts/jquery-1.8.3.min.js\"></script> \r\n\r\n    <form name=\"aspnetForm\"
+        method=\"post\" action=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=%24P1.ETR.SEARCH.STW\"
+        id=\"aspnetForm\">\r\n<div>\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwUKMTE5MDgzMDk0Nw9kFgJmD2QWAgIBD2QWBAIED2QWBAIBD2QWAmYPZBYEAgEPZBYCZg9kFgJmDw8WEB4EVGV4dAUJRWRpdCBNb2RlHgtDb21tYW5kTmFtZQUEVGFzax4PQ29tbWFuZEFyZ3VtZW50BRpQMUVQUkN1c3RvbWlzYXRpb25FZGl0TW9kZR4JQWNjZXNzS2V5ZR4QQ2F1c2VzVmFsaWRhdGlvbmgeCFRhYkluZGV4AQAAHgdUb29sVGlwZR4PVmFsaWRhdGlvbkdyb3VwZWRkAgIPZBYCZg9kFgJmDw8WEB8ABQ1SZWZyZXNoIENhY2hlHwEFBFRhc2sfAgUeUDFFUFJDdXN0b21pc2F0aW9uUmVmcmVzaENhY2hlHwNlHwRoHwUBAAAfBmUfB2VkZAIDDw8WAh4HVmlzaWJsZWhkFgICAg8PZA8PFCsAARYGHgROYW1lBQpsc0Z1bmN0aW9uHgxEZWZhdWx0VmFsdWUFEVAxLkVUUi5TRUFSQ0guU1RXHg5QYXJhbWV0ZXJWYWx1ZWQUKwEBAgNkZAIHD2QWBgIBDw8WAh8AZWRkAgMPZBYEAgIPDxYCHwAFDFNlYXJjaCBEYXRlc2RkAgMPDxYCHwAFGDIzLzA2LzIwMTkgdG8gMjkvMDYvMjAxOWRkAgUPDxYEHghHcmlkVHlwZQUMRVRSQUNLU0VBUkNIHhBHcmlkQ3JpdGVyaWFMaXN0Mu0EAAEAAAD/////AQAAAAAAAAAMAgAAAFBUMS5QMS5XZWIuT2JqZWN0QWRhcHRlcnMsIFZlcnNpb249MTAuNC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAQBAAAAnAFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1QxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWEsIFQxLlAxLldlYi5PYmplY3RBZGFwdGVycywgVmVyc2lvbj0xMC40LjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsXV0DAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgQAACdUMS5QMS5XZWIuT2JqZWN0QWRhcHRlcnMuR3JpZENyaXRlcmlhW10CAAAACAgJAwAAAAEAAAABAAAABwMAAAAAAQAAAAQAAAAEJVQxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWECAAAACQQAAAANAwUEAAAAJVQxLlAxLldlYi5PYmplY3RBZGFwdGVycy5HcmlkQ3JpdGVyaWEFAAAAB21zVmFsdWUIbXNWYWx1ZTIObXNPcGVyYXRvckNvZGUKbXNDb2x1bW5JZA5tc1Byb3BlcnR5TmFtZQEBAQEBAgAAAAYFAAAAFjIzLzA2LzIwMTkgMTI6MDA6MDAgQU0GBgAAABYyOS8wNi8yMDE5IDExOjU5OjU5IFBNBgcAAAACREIGCAAAAA1Mb2RnZW1lbnREYXRlCQgAAAALZBYCZg9kFgQCAQ9kFgICAQ8PFgIfAAUJR3JpZCBUeXBlZGQCAw8PFgIfCGhkFgICAQ8PFgIfAAUcTm8gaW5mb3JtYXRpb24gaXMgYXZhaWxhYmxlLmRkGAMFQ2N0bDAwJENvbnRlbnQkY3VzUmVzdWx0c0dyaWQkcmVwV2ViR3JpZCRjdGwwMCRncmRXZWJHcmlkVGFidWxhclZpZXcPPCsACgEIAgFkBUBjdGwwMCRDb250ZW50JGN1c1Jlc3VsdHNHcmlkJHJlcFdlYkdyaWQkY3RsMDAkZHR2V2ViR3JpZExpc3RWaWV3DxQrAAdkZGRkZBYAAgNkBRxjdGwwMCRDb250ZW50JGxibFNlYXJjaERhdGVzD2hkAOWGykd2uh5FUL+wQ5eOZT3gowc=\"
+        />\r\n</div>\r\n\r\n<div>\r\n\r\n\t<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"794B1E1F\" />\r\n\t<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEWDQLy2sG7BwK359HKDwL38+S0BQLurtn5CALD0Z//CAKDjpzeCAKCqYWLDgKDhpbOBgL/iqOnDwKei6OnDwK1jaOnDwK/g8WMCQKjmJfRCt7QFAwo98/d5R44xfF+4btGBDK/\"
+        />\r\n</div>\r\n        <div id=\"loading\">               \r\n        </div>\r\n
+        \       <div id=\"cssBounds\">\r\n\r\n            <div id=\"cssBanner\" >\r\n
+        \                   <!-- Login -->\r\n                    <div class=\"speciallink\">\r\n
+        \                       \r\n                            <span class=\"Login\">\r\n
+        \                               <a id=\"ctl00_ctlLogin_cmdLogin\" accesskey=\"L\"
+        title=\"Access Key: L\" href=\"javascript:__doPostBack('ctl00$ctlLogin$cmdLogin','')\">Login</a>
+        \                               \r\n                             </span>\r\n
+        \                           \r\n                     </div>\r\n                    <!--
+        End Login -->            \r\n                <div id=\"cssBannerLogo\">\r\n
+        \                   <a href=\"https://eservices.ryde.nsw.gov.au/T1PRProd/WebApps/eProperty/P1/GuestHome.aspx?r=COR.P1.WEBGUEST&f=%24P1.EPR.GUESTHME.VIW\"
+        id=\"ctl00_cmdHomeNav\">\r\n                        <img src=\"../../App_Themes/Default/Images/Empty.gif\"
+        id=\"ctl00_imageHomeNav\" border=\"0\" class=\"homeNav\" />\r\n                    </a>\r\n
+        \               </div>\r\n            </div>\r\n            <div class=\"clear\"></div>\r\n
+        \           <div id=\"cssContentArea\">\r\n                <div id=\"cssTaskpane\"
+        \ class = \"cssNoPrint\">\r\n                    \r\n                    <div>\r\n
+        \                       \r\n                                <div class=\"menuPanel\">\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl01_lblMenuGroupHeader\">Online
+        Payments</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ePay/RatesPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.RATES.ENQ\">Rates
+        Payment</a></li><li><a href=\"../ePay/DebtorPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.DEBTORS.ENQ\">Debtor
+        Payment</a></li><li><a href=\"../ePay/ApplicationPayment.aspx?r=COR.P1.WEBGUEST&amp;f=COR.EPY.OTHPY.ENQ\">Other
+        Payments</a></li>\r\n</ul>\r\n                                <br />\r\n                            \r\n
+        \                               <div class=\"menuHeader\">\r\n                                    <span
+        id=\"ctl00_Taskpane_rprMenuList_ctl02_lblMenuGroupHeader\">Online Certificates</span>\r\n
+        \                               </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../eSubmit/SubmitApplication.aspx?r=COR.P1.WEBGUEST&amp;f=P1.ESB.SUBMTAPP.VIW\">Apply
+        for a Certificate</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                <div
+        class=\"menuHeader\">\r\n                                    <span id=\"ctl00_Taskpane_rprMenuList_ctl03_lblMenuGroupHeader\">Shopping
+        Cart</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"../ShoppingCart/ShoppingCart.aspx?r=COR.P1.WEBGUEST&amp;f=COR.PAY.CART.VIW\">Shopping
+        Cart Retrieval</a></li>\r\n</ul>\r\n                                <br />\r\n
+        \                           \r\n                                <div class=\"menuHeader\">\r\n
+        \                                   <span id=\"ctl00_Taskpane_rprMenuList_ctl04_lblMenuGroupHeader\">DA
+        Tracking</span>\r\n                                </div>\r\n                                <ul
+        class=\"menuGroupList\">\r\n\t<li><a href=\"eTrackApplicationSearch.aspx?r=COR.P1.WEBGUEST&amp;f=COR.ETR.SEARCH.ENQ\">Application
+        Search</a></li><li><a href=\"../PublicNotices/AllPublicNotices.aspx?r=COR.P1.WEBGUEST&amp;f=COR.ESB.PUBNOTAL.ENQ\">All
+        Applications on Exhibition</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.STW\">Submitted
+        This Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.SLW\">Submitted
+        Last Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=TM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.STM\">Submitted
+        This Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=S&amp;Period=LM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.SLM\">Submitted
+        Last Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DTW\">Determined
+        This Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LW&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DLW\">Determined
+        Last Week</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=TM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DTM\">Determined
+        This Month</a></li><li><a href=\"eTrackApplicationSearchResults.aspx?Field=D&amp;Period=LM&amp;r=COR.P1.WEBGUEST&amp;f=$P1.ETR.SEARCH.DLM\">Determined
+        Last Month</a></li><li><a href=\"https://www.ryde.nsw.gov.au/Information-pages/DA-Tracking-Terms-and-Conditions\">DA
+        Tracking Terms and Conditions</a></li>\r\n</ul>\r\n                                <br
+        />\r\n                            \r\n                                </div>\r\n
+        \                           \r\n                        \r\n                    </div>\r\n
+        \                           \r\n                </div>\r\n                \r\n
+        \               <div id=\"cssTaskpaneRelatedLinks\"  class= \"cssNoPrint\">\r\n
+        \                   \r\n                        \r\n                        \r\n
+        \                   \r\n                    \r\n                    <div id=\"cssHelpAndAdmin\">\r\n
+        \                       \r\n    \r\n    \r\n\r\n                    </div>\r\n
+        \               </div>\r\n                                \r\n                <div
+        id=\"cssContent\">\r\n                <div class=\"cssContentWorkspace\">\r\n
+        \                   <a id=\"cssContentTop\"></a>\r\n                    \r\n
+        \                       <h1 id=\"ctl00_Header_h1PageTitle\">Submitted This
+        Week</h1>\r\n                    \r\n                    \r\n                    \r\n
+        \                             \r\n                    \r\n    \r\n    <span
+        id=\"ctl00_Content_cusETrackApplicationSearchResults\" style=\"display:inline-block;width:100%;\"></span>\r\n
+        \   <br />\r\n    \r\n    <span id=\"ctl00_Content_lblSearchDates\" class=\"block\"><span
+        id=\"ctl00_Content_lblFieldNameP1ETRSearchDates\" class=\"fieldLabel\">Search
+        Dates</span><span id=\"ctl00_Content_lblFieldValueP1ETRSearchDates\" class=\"fieldLabel\">23/06/2019
+        to 29/06/2019</span></span>\r\n    \r\n    <div id=\"ctl00_Content_cusResultsGrid_pnlCustomisationGrid\">\r\n\t\r\n
+        \   \r\n    \r\n    \r\n            <div id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_pnlSectionHeading\">\r\n\t\t\r\n
+        \               <span id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_lblSectionHeading\"
+        class=\"sectionHeading\">Application Search Results</span>\r\n                                <br
+        />\r\n                <img id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_imgSectionSeparator\"
+        class=\"sectionSeparator\" src=\"../../App_Themes/CoR/Images/Empty.gif\" alt=\"\"
+        style=\"border-width:0px;height:0px;width:50%;\" />\r\n            \r\n\t</div>\r\n
+        \r\n            \r\n\r\n            <div>\r\n\t\t<table class=\"grid\" cellspacing=\"0\"
+        cellpadding=\"3\" border=\"0\" id=\"ctl00_Content_cusResultsGrid_repWebGrid_ctl00_grdWebGridTabularView\"
+        style=\"width:100%;border-collapse:collapse;\">\r\n\t\t\t<tr class=\"headerRow\">\r\n\t\t\t\t<th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$RamId')\">Application
+        Link</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$FormattedAddress')\">Address</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$LodgementDate')\">Lodgement
+        Date</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$Description')\">Description</a></th><th
+        scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$PrimaryGroupDescription')\">Group
+        Description</a></th><th scope=\"col\"><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView','Sort$DeterminedDate')\">Determined
+        Date</a></th>\r\n\t\t\t</tr><tr class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl02$ctl01','')\">LDA2019/0204</a></td><td>39
+        Hollis Ave DENISTONE EAST NSW 2112</td><td>24/06/2019</td><td>Proposed demolition
+        of existing dwelling and construction of dual occupancy (attached)</td><td>Development
+        Application</td><td>&nbsp;</td>\r\n\t\t\t</tr><tr class=\"alternateRow\">\r\n\t\t\t\t<td><a
+        href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl03$ctl01','')\">MOD2019/0104</a></td><td>8
+        Delmar Pde GLADESVILLE NSW 2111</td><td>24/06/2019</td><td>Modification to:
+        Alteration &amp; Addition to the existing Dwelling- CDP2019/0114</td><td>Modifications</td><td>&nbsp;</td>\r\n\t\t\t</tr><tr
+        class=\"normalRow\">\r\n\t\t\t\t<td><a href=\"javascript:__doPostBack('ctl00$Content$cusResultsGrid$repWebGrid$ctl00$grdWebGridTabularView$ctl04$ctl01','')\">MOD2019/0105</a></td><td>47
+        Lovell Rd DENISTONE EAST NSW 2112</td><td>24/06/2019</td><td>Section 4.55
+        (1A) application to modify consent involving: 1. Installation of air conditioning
+        to Buiding - J 2. Relocation of pedestrian gate at Block - R, 3. Consolidation
+        of solar panel to northern roof of Block - J</td><td>Modifications</td><td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t</div>\r\n
+        \           \r\n            <br />\r\n            \r\n            \r\n            \r\n
+        \       \r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    \r\n    <div class=\"actionButtonsLeft\">\r\n
+        \       <input type=\"submit\" name=\"ctl00$Content$btnPrevious\" value=\"Previous\"
+        id=\"ctl00_Content_btnPrevious\" accesskey=\"P\" title=\"Access Key: P\" class=\"LeftArrowButton\"
+        />\r\n    </div>\r\n\r\n\r\n                    <div class=\"clear\"></div>\r\n
+        \                   <br />\r\n                    <br />\r\n                    <br
+        />\r\n                </div>\r\n                </div>\r\n            </div>\r\n
+        \           <p></p>\r\n            <p class=\"invisible\"></p>\r\n            <div
+        id=\"cssBottomBar\" class=\"cssNoPrint\">\r\n                <div id=\"cssBottomBarLegal\">
+        \                \r\n                    <a id=\"ctl00_hplCustomFooterLink1\"
+        accesskey=\"V\" title=\"Access Key: V\" href=\"http://www.ryde.nsw.gov.au/Information-pages/Privacy-Statement\"
+        target=\"_self\">Privacy</a>\r\n                    <img id=\"ctl00_imgFooterSeparator1\"
+        class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink2\" accesskey=\"T\" title=\"Access Key: T\"
+        href=\"http://www.ryde.nsw.gov.au/Information-pages/Terms-and-Conditions\"
+        target=\"_self\">Terms and Conditions</a>\r\n                    <img id=\"ctl00_imgFooterSeparator2\"
+        class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                    <a
+        id=\"ctl00_hplCustomFooterLink3\" accesskey=\"U\" title=\"Access Key: U\"
+        href=\"http://www.ryde.nsw.gov.au/Information-pages/Contact-Us\" target=\"_self\">Contact
+        Us</a>                       \r\n                    <span id=\"ctl00_MobileLink\">\r\n
+        \                       <img id=\"ctl00_Image1\" class=\"verticalBar\" src=\"../../App_Themes/CoR/Images/VerticalBarBlack.gif\"
+        alt=\"\" style=\"height:10px;width:1px;border-width:0px;\" />\r\n                        <a
+        id=\"ctl00_hplMobileView\" href=\"javascript:__doPostBack('ctl00$hplMobileView','')\">Mobile
+        View</a>                       \r\n                    </span>\r\n                </div>\r\n
+        \               <div id=\"cssBottomBarCopyright\">&copy; Technology One Limited
+        2019</div>\r\n            </div>\r\n            \r\n        </div>\r\n    \r\n\r\n<script
+        type=\"text/javascript\">\r\n//<![CDATA[\r\n$(document).ready(function ()
+        {if ($('#ctl00_valErrors').is(':visible') == true) {$('#__SCROLLPOSITIONX').val('0');$('#__SCROLLPOSITIONY').val('0');}});//]]>\r\n</script>\r\n</form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
